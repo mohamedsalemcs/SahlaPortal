@@ -29,7 +29,7 @@
         var e = i.scrollTop(),
             a = n(".navbar-brand img"),
             o = n(".navbar-brand.logodefault img");
-        e <= 50 ? (n("header").removeClass("scrollHeader").addClass("fixedHeader"), a.attr("src", "img/logos/logo-inner.png")) : (n("header").removeClass("fixedHeader").addClass("scrollHeader"), a.attr("src", "img/logos/logo.png")), o.attr("src", "img/logos/logo.png")
+        e <= 50 ? (n("header").removeClass("scrollHeader").addClass("fixedHeader"), a.attr("src", "assets/images/logos/logo-inner.png")) : (n("header").removeClass("fixedHeader").addClass("scrollHeader"), a.attr("src", "assets/images/logos/logo.png")), o.attr("src", "assets/images/logos/logo.png")
     }), i.on("scroll", function() {
         500 < n(this).scrollTop() ? n(".scroll-to-top").fadeIn(400) : n(".scroll-to-top").fadeOut(400)
     }), n(".scroll-to-top").on("click", function(e) {

@@ -3513,7 +3513,7 @@ h2.resp-tab-active span.resp-arrow {
     left: 35%;
     right: -45px;
     bottom: 60px;
-    background-image: url(../img/content/about-border.png);
+    background-image: url(../images/content/about-border.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat
@@ -4155,7 +4155,7 @@ h2.resp-tab-active span.resp-arrow {
 }
 
 .discount-box {
-  background-image: url(../img/bg/discount-box.png);
+  background-image: url(../images/bg/discount-box.png);
   background-repeat: no-repeat;
   background-size: cover;
     /* background-color: #a03794; */
