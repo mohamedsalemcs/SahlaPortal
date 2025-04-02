@@ -25,9 +25,6 @@
   <!-- search css -->
   <link rel="stylesheet" href="search/search.css">
 
-  <!-- quform css -->
-  <link rel="stylesheet" href="quform/css/base.css">
-
   <!-- core style css -->
   <link href="css/styles.css" rel="stylesheet">
 
@@ -80,19 +77,19 @@
                         <li>
                           <a href="#!">الخدمات الشهرية</a>
                           <ul>
-                            <li><a href="#!">التنظيف الشهري</a></li>
-                            <li><a href="#!">سائق خاص</a></li>
+                            <li><a href="service-details-monthly.html">التنظيف الشهري</a></li>
+                            <li><a href="service-details-driver.html">سائق خاص</a></li>
                           </ul>
                         </li>
                         <li>
                           <a href="#!">خدمات الساعة</a>
                           <ul>
-                            <li><a href="#!">التنظيف بالساعة</a></li>
-                            <li><a href="#!">الضيافة</a></li>
+                            <li><a href="service-details-hourly.html">التنظيف بالساعة</a></li>
+                            <li><a href="service-details-hosting.html">الضيافة</a></li>
                           </ul>
                         </li>
-                        <li><a href="#!">الأعمال</a></li>
-                        <li><a href="#!">التوسط</a></li>
+                        <li><a data-toggle="modal" data-target="#Business" class="cursor-pointer">خدمات الأعمال</a></li>
+                        <li><a data-toggle="modal" data-target="#Twasut" class="cursor-pointer">خدمات التوسط</a></li>
                       </ul>
                     </li>
                     <li><a href="contact.html">اتصل بنا</a></li>
@@ -113,31 +110,31 @@
     </header>
     <!-- نهاية قسم الهيدر -->
 
-    <!-- start page title section -->
+    <!-- بداية قسم عنوان الصفحة -->
     <section class="page-title-section bg-img cover-background top-position theme-overlay-dark" data-overlay-dark="6"
       data-background="img/bg/bg-05.jpg">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>FAQ</h1>
+            <h1>الأسئلة الشائعة</h1>
           </div>
           <div class="col-md-12">
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#!">FAQ</a></li>
+              <li><a href="index.html">الرئيسية</a></li>
+              <li><a href="#!">الأسئلة الشائعة</a></li>
             </ul>
           </div>
         </div>
       </div>
     </section>
-    <!-- end page title section -->
+    <!-- نهاية قسم عنوان الصفحة -->
 
-    <!-- start faq page -->
+    <!-- بداية صفحة الأسئلة الشائعة -->
     <section class="faq-section">
       <div class="container">
         <div class="text-center mb-5">
-          <h5 class="text-primary h6">FAQ</h5>
-          <h2 class="display-20 display-md-18 display-lg-16">Have any question look here</h2>
+          <h5 class="text-primary h6">الأسئلة الشائعة</h5>
+          <h2 class="display-20 display-md-18 display-lg-16">ابحث هنا عن إجابات لأسئلتك</h2>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-10">
@@ -145,14 +142,13 @@
               <div class="card">
                 <div class="card-header" id="headingOne">
                   <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                      aria-controls="collapseOne">How much are house cleaning services?</button>
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">كم
+                      تبلغ تكلفة خدمات تنظيف المنازل؟</button>
                   </h5>
                 </div>
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                   <div class="card-body">
-                    Amet Lorem ipsum dolor sit, consectetur adipi sicing elit, sed do eiusmod tempor. Lorem ipsum dolor sit, consectetur adipi sicing
-                    elit, sed do eiusmod tempor.
+                    تختلف تكلفة الخدمة حسب مساحة المنزل وعدد الغرف ونوع الخدمة المطلوبة. يمكنك الحصول على عرض سعر مجاني عن طريق الاتصال بنا.
                   </div>
                 </div>
               </div>
@@ -160,13 +156,12 @@
                 <div class="card-header" id="headingTwo">
                   <h5 class="mb-0">
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                      aria-controls="collapseTwo">What is your plan cancellation policy?</button>
+                      aria-controls="collapseTwo">ما هي سياسة إلغاء الخدمة؟</button>
                   </h5>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                   <div class="card-body">
-                    Consectetur amet Lorem ipsum dolor sit, adipi sicing elit, sed do eiusmod tempor. Amet Lorem ipsum dolor sit, adipi sicing elit,
-                    sed do eiusmod tempor.
+                    يمكنك إلغاء الخدمة قبل 24 ساعة من الموعد المحدد دون أي رسوم. للإلغاء في وقت أقل من ذلك، يرجى الاتصال بنا مباشرة.
                   </div>
                 </div>
               </div>
@@ -174,13 +169,12 @@
                 <div class="card-header" id="headingThree">
                   <h5 class="mb-0">
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                      aria-controls="collapseThree">How long should a house cleaning take?</button>
+                      aria-controls="collapseThree">كم من الوقت يستغرق تنظيف المنزل؟</button>
                   </h5>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                   <div class="card-body">
-                    Sicing lorem ipsum dolor sit amet, consectetur adipi elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi
-                    elit, sed do eiusmod tempor.
+                    يعتمد الوقت على حجم المنزل ودرجة الاتساخ. في المتوسط، يستغرق تنظيف شقة متوسطة الحجم من 2-4 ساعات.
                   </div>
                 </div>
               </div>
@@ -188,13 +182,12 @@
                 <div class="card-header" id="headingFour">
                   <h5 class="mb-0">
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
-                      aria-controls="collapseFour">What will it cost to have my home cleaned?</button>
+                      aria-controls="collapseFour">ما هي تكلفة تنظيف منزلي؟</button>
                   </h5>
                 </div>
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                   <div class="card-body">
-                    Sicing lorem ipsum dolor sit amet, consectetur adipi elit, sed do eiusmod tempor. Ipsum sicing lorem dolor sit amet, consectetur
-                    adipi elit, sed do eiusmod tempor.
+                    نقدم عروض أسعار مجانية بعد تقييم حجم العمل المطلوب. يمكنك طلب زيارة مسبقة من فريقنا لتقييم احتياجاتك.
                   </div>
                 </div>
               </div>
@@ -202,13 +195,12 @@
                 <div class="card-header" id="headingFive">
                   <h5 class="mb-0">
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
-                      aria-controls="collapseFive">Can I skip or reschedule an appointment?</button>
+                      aria-controls="collapseFive">هل يمكنني تأجيل أو إعادة جدولة الموعد؟</button>
                   </h5>
                 </div>
                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                   <div class="card-body">
-                    Sicing lorem ipsum dolor sit amet, consectetur adipi elit, sed do eiusmod tempor. Dolor sicing lorem ipsum sit amet, consectetur
-                    adipi elit, sed do eiusmod tempor.
+                    نعم، يمكنك إعادة جدولة الموعد قبل 24 ساعة على الأقل من الموعد المحدد. للاستفسارات العاجلة، يرجى الاتصال بنا مباشرة.
                   </div>
                 </div>
               </div>
@@ -217,35 +209,39 @@
         </div>
       </div>
     </section>
-    <!-- end faq page -->
+    <!-- نهاية صفحة الأسئلة الشائعة -->
 
-    <!-- start contactus section -->
+    <!-- بداية قسم اتصل بنا -->
     <section class="bg-img cover-background left-overlay" data-overlay-dark="7" data-scroll-index="6" data-background="img/bg/bg-03.jpg">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-7 mb-1-6 mb-md-1-9 mb-lg-0">
             <div class="pr-lg-5 pr-xl-7">
-              <h2 class="section-heading-one-left text-white text-shadow">Discover the right concord and comfort<span>08</span></h2>
+              <h2 class="section-heading-one-left text-white text-shadow">اكتشف الراحة والانسجام المثالي<span>08</span></h2>
               <div class="row">
                 <div class="col-sm-4 mb-1-6 mb-sm-0">
                   <div class="contact-wrapper">
                     <i class="fas fa-mobile-alt"></i>
-                    <h4 class="font-weight-600 h6">Phone</h4>
-                    <span class="d-block">+1 234 567 890</span>
+                    <h4 class="font-weight-600 h6">الهاتف</h4>
+                    <a href="tel:+966 9200 13416">
+                      <span class="d-block ltr">+966 9200 13416</span>
+                    </a>
                   </div>
                 </div>
                 <div class="col-sm-4 mb-1-6 mb-sm-0">
                   <div class="contact-wrapper">
                     <i class="far fa-envelope"></i>
-                    <h4 class="font-weight-600 h6">Email</h4>
-                    <span class="d-block">your@email</span>
+                    <h4 class="font-weight-600 h6">البريد الإلكتروني</h4>
+                    <a href="mailto:Info@sahla-ksa.com">
+                      <span class="d-block">Info@sahla-ksa.com</span>
+                    </a>
                   </div>
                 </div>
                 <div class="col-sm-4">
                   <div class="contact-wrapper">
                     <i class="far fa-clock"></i>
-                    <h4 class="font-weight-600 h6">Opening</h4>
-                    <span class="d-block">10:00 - 18:00</span>
+                    <h4 class="font-weight-600 h6">ساعات العمل</h4>
+                    <span class="d-block">08:00 ص - 06:00 م</span>
                   </div>
                 </div>
               </div>
@@ -253,110 +249,89 @@
           </div>
           <div class="col-lg-5">
             <div class="bg-white-opacity p-1-6 p-sm-2-2 border rounded">
-              <h3 class="h4 mb-1-6">Ask anything or Free Consultation</h3>
-              <form class="quform" action="quform/contact.php" method="post" enctype="multipart/form-data" onclick="">
+              <h3 class="h4 mb-1-6">استفسر عن أي شيء أو احصل على استشارة مجانية</h3>
 
                 <div class="quform-elements">
 
                   <div class="row">
 
-                    <!-- Begin Text input element -->
+                    <!-- بداية حقل الإدخال -->
                     <div class="col-md-6">
                       <div class="quform-element form-group">
-                        <label for="name">Your Name <span class="quform-required">*</span></label>
+                        <label for="name">اسمك <span class="quform-required">*</span></label>
                         <div class="quform-input">
-                          <input class="form-control" id="name" type="text" name="name" placeholder="Your name here" />
+                          <input class="form-control" id="name" type="text" name="name" placeholder="اكتب اسمك هنا" />
                         </div>
                       </div>
 
                     </div>
-                    <!-- End Text input element -->
+                    <!-- نهاية حقل الإدخال -->
 
-                    <!-- Begin Text input element -->
+                    <!-- بداية حقل الإدخال -->
                     <div class="col-md-6">
                       <div class="quform-element form-group">
-                        <label for="email">Your Email <span class="quform-required">*</span></label>
+                        <label for="email">بريدك الإلكتروني <span class="quform-required">*</span></label>
                         <div class="quform-input">
-                          <input class="form-control" id="email" type="text" name="email" placeholder="Your email here" />
+                          <input class="form-control" id="email" type="text" name="email" placeholder="اكتب بريدك الإلكتروني هنا" />
                         </div>
                       </div>
                     </div>
-                    <!-- End Text input element -->
+                    <!-- نهاية حقل الإدخال -->
 
-                    <!-- Begin Text input element -->
+                    <!-- بداية حقل الإدخال -->
                     <div class="col-md-6">
                       <div class="quform-element form-group">
-                        <label for="subject">Your Subject <span class="quform-required">*</span></label>
+                        <label for="subject">الموضوع <span class="quform-required">*</span></label>
                         <div class="quform-input">
-                          <input class="form-control" id="subject" type="text" name="subject" placeholder="Your subject here" />
-                        </div>
-                      </div>
-
-                    </div>
-                    <!-- End Text input element -->
-
-                    <!-- Begin Text input element -->
-                    <div class="col-md-6">
-                      <div class="quform-element form-group">
-                        <label for="phone">Contact Number</label>
-                        <div class="quform-input">
-                          <input class="form-control" id="phone" type="text" name="phone" placeholder="Your phone here" />
+                          <input class="form-control" id="subject" type="text" name="subject" placeholder="اكتب موضوع الرسالة هنا" />
                         </div>
                       </div>
 
                     </div>
-                    <!-- End Text input element -->
+                    <!-- نهاية حقل الإدخال -->
 
-                    <!-- Begin Textarea element -->
+                    <!-- بداية حقل الإدخال -->
+                    <div class="col-md-6">
+                      <div class="quform-element form-group">
+                        <label for="phone">رقم الهاتف</label>
+                        <div class="quform-input">
+                          <input class="form-control" id="phone" type="text" name="phone" placeholder="اكتب رقم هاتفك هنا" />
+                        </div>
+                      </div>
+
+                    </div>
+                    <!-- نهاية حقل الإدخال -->
+
+                    <!-- بداية حقل النص -->
                     <div class="col-md-12">
                       <div class="quform-element form-group">
-                        <label for="message">Message <span class="quform-required">*</span></label>
+                        <label for="message">الرسالة <span class="quform-required">*</span></label>
                         <div class="quform-input">
-                          <textarea class="form-control" id="message" name="message" rows="3" placeholder="Tell us a few words"></textarea>
+                          <textarea class="form-control" id="message" name="message" rows="3" placeholder="اكتب رسالتك هنا"></textarea>
                         </div>
                       </div>
                     </div>
-                    <!-- End Textarea element -->
+                    <!-- نهاية حقل النص -->
 
-                    <!-- Begin Captcha element -->
-                    <div class="col-md-12">
-                      <div class="quform-element">
-                        <div class="form-group">
-                          <div class="quform-input">
-                            <input class="form-control" id="type_the_word" type="text" name="type_the_word" placeholder="Type the below word" />
-                          </div>
-                        </div>
-                        <div class="form-group">
-                          <div class="quform-captcha">
-                            <div class="quform-captcha-inner">
-                              <img src="quform/images/captcha/courier-new-light.png" alt="...">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End Captcha element -->
-
-                    <!-- Begin Submit button -->
+                    <!-- بداية زر الإرسال -->
                     <div class="col-md-12">
                       <div class="quform-submit-inner">
-                        <button class="butn butn-md" type="submit"><span>Send Message</span></button>
+                        <button class="butn butn-md" type="submit"><span>إرسال الرسالة</span></button>
                       </div>
                       <div class="quform-loading-wrap text-left"><span class="quform-loading"></span></div>
                     </div>
-                    <!-- End Submit button -->
+                    <!-- نهاية زر الإرسال -->
 
                   </div>
 
                 </div>
 
-              </form>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- end contactus section  -->
+    <!-- نهاية قسم اتصل بنا  -->
 
     <!-- بداية قسم الفوتر -->
     <footer class="pt-16 pt-lg-20 pt-xl-24 bg-img cover-background theme-overlay-dark" data-overlay-dark="9" data-background="img/bg/bg-01.jpg">
@@ -382,12 +357,12 @@
             <div class="pl-lg-1-6">
               <h3 class="text-primary h5 mb-1-6">خدماتنا</h3>
               <ul class="footer-list">
-                <li><a href="#!">الخدمة الشهرية</a></li>
-                <li><a href="#!">خدمات الساعة</a></li>
-                <li><a href="#!">سائق خاص</a></li>
-                <li><a href="#!">خدمة الضيافة</a></li>
-                <li><a href="#!">خدمات الأعمال</a></li>
-                <li><a href="#!">خدمات التوسط</a></li>
+                <li><a href="service-details-monthly.html">الخدمة الشهرية</a></li>
+                <li><a href="service-details-hourly.html">خدمات الساعة</a></li>
+                <li><a href="service-details-driver.html">سائق خاص</a></li>
+                <li><a href="service-details-hosting.html">خدمة الضيافة</a></li>
+                <li><a data-toggle="modal" data-target="#Business">خدمات الأعمال</a></li>
+                <li><a data-toggle="modal" data-target="#Twasut">خدمات التوسط</a></li>
               </ul>
             </div>
           </div>
@@ -448,13 +423,13 @@
         <div class="row delete-sec">
           <ul class="d-flex justify-content-center w-100 mb-0">
             <li class="mx-lg-5">
-              <a href="#">سياسة الخصوصية</a>
+              <a data-toggle="modal" data-target="#PrivacyPolicy">سياسة الخصوصية</a>
             </li>
             <li class="mx-lg-5">
-              <a href="#">الشروط والأحكام</a>
+              <a data-toggle="modal" data-target="#TermsConditions">الشروط والأحكام</a>
             </li>
             <li class="mx-lg-5">
-              <a href="#">حذف الحساب</a>
+              <a data-toggle="modal" data-target="#deleteAccountPhone">حذف الحساب</a>
             </li>
           </ul>
         </div>
@@ -490,13 +465,581 @@
   <!-- custom scripts -->
   <script src="js/main.js"></script>
 
-  <!-- form plugins js -->
-  <script src="quform/js/plugins.js"></script>
-
-  <!-- form scripts js -->
-  <script src="quform/js/scripts.js"></script>
-
   <!-- all js include end -->
+
+  <!-- Modal TermsConditions -->
+  <div class="modal fade" id="TermsConditions" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">
+            الشروط والأحكام
+          </h5>
+          <button type="button" class="btn btn-close" data-dismiss="modal" aria-label="Close">
+            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.4998 26.5832C21.1733 26.5832 26.5832 21.1733 26.5832 14.4998C26.5832 7.8264 21.1733 2.4165 14.4998 2.4165C7.8264 2.4165 2.4165 7.8264 2.4165 14.4998C2.4165 21.1733 7.8264 26.5832 14.4998 26.5832Z"
+                stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M18.125 10.875L10.875 18.125" stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M10.875 10.875L18.125 18.125" stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div>
+            <h3>حقوق العاملة والعميل</h3>
+            <ul>
+              <li>يلتزم العميل بالتعامل مع العاملة بما لا يتعارض مع أحكام الشريعة الإسلامية ووفقا للائحة عمالة الخدمة المنزلية ومن في حكمهم.</li>
+              <li>يلتزم العميل باستقبال العاملة حسب موعد الزيارة.</li>
+              <li>يلتزم العميل بساعات الزيارة المحددة وعدم حجز العاملة بعد انتهاء وقت الزيارة.</li>
+              <li>تلتزم العاملة بالمحافظة على خصوصية وسرية معلومات العميل.</li>
+              <li>تلتزم العاملة بتأدية الأعمال المتعلقة بشؤون المنزل من النظافة، الغسيل، المسح، الترتيب ....، ولا تعتبر ملزمة بغسيل فناء المنزل
+                (الحوش أو السطح) أو الطبخ، أو غسيل السيارة أو كوي الملابس أو الغسيل اليدوي للملابس او تنظيف الأماكن العالية كالثريات، الستائر ....
+              </li>
+            </ul>
+
+            <h3>التأجيل والتعديل موعد الزيارة</h3>
+            <ul>
+              <li>عقود زيارات مفردة: لا يحق للعميل إعادة تأجيل الزيارات المفردة وتعتبر نافذة ومستهلكة ولا تسترد قيمتها.</li>
+              <li>العقود الشهرية: في حالة رغبة العميل في تأجيل الزيارة، يجب الرفع بطلب في الأمر في فترة لا تقل عن 24 ساعة من وقت تنفيذها وفي حالة
+                عدم استلامها، تعتبر الزيارة منفذة ومستهلكة ولا يحق للعميل استرداد قيمتها.</li>
+              <li>عقود الباقات الشهرية: يحق للعميل تأجيل موعد الزيارة التي تم سداد قيمتها بحد أقصي قبل 24 ساعة من الموعد المراد تأجيله.</li>
+              <li>لا يحق للعميل طلب تأجيل زيارة مؤجلة سابقاً.</li>
+              <li>في حال طلب تأجيل الزيارة لا يتم ضمان وجود نفس العاملة في الزيارة المؤجلة ويتم توفير عاملة من نفس الجنسية على حسب الإتاحية.</li>
+              <li>يحق للعميل تقديم أو تأجيل الزيارة حسب الإتاحية في حالة توفر الخدمة من خلال التطبيق أو من خلال الاتصال عبر مركز الاتصال على الرقم (
+                ).</li>
+            </ul>
+
+            <h3>تغيير الفترة والجنسية</h3>
+            <ul>
+              <li>يحق للعميل طلب تغيير فترة العقد مع احتساب رسوم إضافية.</li>
+              <li>يحق للعميل طلب تغيير فترة العقد بحد أقصي قبل 24 ساعة من تاريخ بداية العقد.</li>
+              <li>تغيير فترة العقد متاح للعقود الشهرية فقط.</li>
+              <li>يحق للعميل طلب تغيير جنسية العاملة المتعاقد عليها مع احتساب رسوم إضافية.</li>
+            </ul>
+
+            <h3>تغيير العنوان</h3>
+            <ul>
+              <li>يحق للعميل طلب تغيير العنوان السابق المتفق عليه، وذلك للعقود الشهرية فقط.</li>
+              <li>يحق للعميل طلب تغيير العنوان في العقد وفقا للتالي:</li>
+              <ul>
+                <li>من غير رسوم إضافية، عند تقديم الطلب المرة الأولى.</li>
+                <li>مقابل رسوم إضافية، في حالة تكرار الطلب.</li>
+              </ul>
+            </ul>
+
+            <h3>إلغاء العقد</h3>
+            <ul>
+              <li>عقود الزيارات المفردة: لا تلغي ولا تسترد قيمتها كما لا يجوز تأجيلها عن الميعاد المتفق عليه.</li>
+              <li>عقود الباقات الشهرية: يحق للعميل الغاء العقد قبل أو بعد البدء في تقديم الخدمة ويتم احتساب قيمة الزيارات النافذة بالإضافة الى رسوم
+                إلغاء.</li>
+              <li>في حالة الاخلال بأي من شروط وبنود هذا العقد أو الاعتداء أو التحرش بالعاملة يحق للشركة الغاء العقد دون الرجوع الى العميل.</li>
+              <li>في حال حدوث نزاع بين الطرفين يتم الحل بشكل ودي وإذا تعذر ذلك يتم اللجوء الى المحاكم المختصة في الرياض.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal PrivacyPolicy -->
+  <div class="modal fade" id="PrivacyPolicy" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">
+            سياسة حماية البيانات الشخصية
+          </h5>
+          <button type="button" class="btn btn-close" data-dismiss="modal" aria-label="Close">
+            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.4998 26.5832C21.1733 26.5832 26.5832 21.1733 26.5832 14.4998C26.5832 7.8264 21.1733 2.4165 14.4998 2.4165C7.8264 2.4165 2.4165 7.8264 2.4165 14.4998C2.4165 21.1733 7.8264 26.5832 14.4998 26.5832Z"
+                stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M18.125 10.875L10.875 18.125" stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M10.875 10.875L18.125 18.125" stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div>
+            <h2>الباب الأول: التعريفات والأهداف</h2>
+            <ul>
+              <li><strong>من نحن:</strong> "نحن شركة سهلة للموارد البشرية وننشط في قطاع إدارة الموارد البشرية في المملكة من خلال تأمين خدمات القوى
+                العاملة للقطاعين العام والخاص وتلبية احتياجات السوق المحلية عبر منظومة متكاملة من الخدمات، منها خدمات قطاع الأعمال وقطاع الأفراد
+                وخدمات
+                قطاع التوطين."</li>
+              <li><strong>نطاق سياسة الخصوصية:</strong> تشمل هذه السياسة اي عملية معالجة لبيانات شخصية تتعلق بالافراد تتم داخل المملكة بأي وسيلة كانت،
+                بما في ذلك كعالجة البيانات الشخصية المتعلقة بالافراد المقيمين في المملكة بأي وسيلة كانت من أي جهة خارج المملكة. ويشمل ذلك بيانات
+                المتوفى
+                اذا كانت ستؤدي الى معرفته او معرفة احد افراد اسرته على وجه التحديد. هذه السياسة متوافقة تماما مع نظام حماية البيانات الشخصية في
+                المملكة
+                العربية السعودية واللوائح المعمول بها ذات الصلة، وهي تهدف الى حماية البيانات الشخصية وضمان حقوق الافراد فيما يتعلق بخصوصيتهم.</li>
+              <li><strong>أهداف سياسة الخصوصية:</strong>
+                <ul>
+                  <li>تطبيق نظام حماية البيانات الشخصية واللوائح المعمول بها في المملكة العربية السعودية.</li>
+                  <li>شرح كيفية قيام الشركة بمعالجة بياناتك الشخصية، واستخدامها أو مشاركتها، وكيفية تخزينها.</li>
+                  <li>توضيح الإجراءات المتخذة لضمان سرية وأمن المعلومات الشخصية، بما يتوافق مع الأنظمة والتشريعات في المملكة.</li>
+                </ul>
+              </li>
+            </ul>
+
+            <h2>الباب الثاني: الشروط والأحكام</h2>
+            <ul>
+              <li><strong>أنواع المعلومات التي نقوم بجمعها:</strong>
+                <ul>
+                  <li>بيانات الهوية: الاسم بالكامل / الجنس / تاريخ الميلاد / رقم الهوية أو الإقامة / مكان الإقامة.</li>
+                  <li>معلومات الاتصال: رقم الهاتف / البريد الإلكتروني / العنوان الوطني / عنوان العمل.</li>
+                  <li>معلومات التعليم: المستوى التعليمي.</li>
+                  <li>البيانات التي تم جمعها من التواصل معك: المكالمات الهاتفية المسجلة / البيانات من خلال البريد الإلكتروني / الواتساب / البيانات من
+                    خلال مواقعنا على وسائل التواصل الاجتماعي.</li>
+                  <li>بيانات أخرى: البيانات التي تم جمعها من خلال التطبيق أو الموقع الإلكتروني أو عند تعبئة النماذج أو التواصل المباشر أو من خلال
+                    الهاتف
+                    أو البريد الإلكتروني.</li>
+                </ul>
+              </li>
+              <li><strong>لا نقوم بمعالجة بياناتك الشخصية إلا بعد التحقق من التالي:</strong>
+                <ul>
+                  <li>الموافقة: يجب أن نحصل على موافقتكم قبل قيامنا بمعالجة بياناتكم الشخصية أو استخدامها باستثناء الحالات التي يسمح بها القانون
+                    واللوائح المعمول بها.</li>
+                  <li>المصالح الحيوية: لحماية مصالحك أو لحماية مصالح المملكة العربية السعودية.</li>
+                  <li>مطالبات الجهات الرسمية أو العامة: عند الطلب من إحدى الجهات الرسمية والعامة وحسب تخصصها.</li>
+                  <li>المصالح المشروعة: في حال وجود مصلحة مشروعة دون المساس بمصالحك ودون معالجة أي من بياناتك الحساسة.</li>
+                  <li>الالتزام القانوني: نقوم بمعالجة بياناتك الشخصية في حال وجود التزام أو ضرورة قانونية للوفاء بالتزامات أو متطلبات.</li>
+                </ul>
+              </li>
+              <li><strong>كيف نستخدم بياناتك الشخصية:</strong>
+                <ul>
+                  <li>تقديم الخدمات المطلوبة: وذلك لضمان تقديم الخدمة بكفاءة وفعالية، وتصميم العروض والخدمات بما يتناسب مع احتياجاتك.</li>
+                  <li>الرد على الاستفسارات والشكاوى: للتعامل مع استفساراتكم وشكاويكم بشكل سريع وفعال ولتحقيق الرضا المطلوب.</li>
+                  <li>تحسين الخدمات المقدمة وتطويرها وتقييمها وتقديم تجربة أفضل لكم بما في ذلك الاستفادة من المكالمات والاتصالات المسجلة لغايات ضبط
+                    الجودة.</li>
+                  <li>أغراض قانونية وتنظيمية: استخدام البيانات الشخصية من أجل الممارسات والإجراءات القانونية من خلال الاحتفاظ بالسجلات كدليل لأي دعوى
+                    قضائية.</li>
+                  <li>الامتثال للقوانين واللوائح أو التوجيهات أو الأحكام أو أوامر المحاكم أو طلبات الجهات الحكومية.</li>
+                </ul>
+              </li>
+              <li><strong>مع من قد نشارك بياناتك الشخصية:</strong>
+                <ul>
+                  <li>الجهات العامة أو التنظيمية.</li>
+                  <li>الجهات التشريعية والحكومية.</li>
+                  <li>المستشارون القانونيون.</li>
+                  <li>أي طرف آخر بعد الحصول على موافقتكم.</li>
+                  <li>وكالات التواصل الاجتماعي من أجل التسويق المباشر ضمن الضوابط التالية:
+                    <ul>
+                      <li>عدم الإخلال بنظام الاتصالات وتقنية المعلومات والأنظمة الأخرى ذوات الصلة.</li>
+                      <li>الحصول على موافقتكم وبشكل واضح.</li>
+                      <li>توفير آلية سهلة تمكنكم من إيقاف تلقي المواد التسويقية عند الرغبة.</li>
+                      <li>توضيح وذكر اسم الجهة المرسلة.</li>
+                      <li>التوقف مباشرة عن إرسال المواد التسويقية في حال عدولكم عن الموافقة على ذلك.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><strong>التغييرات على اشعار الخصوصية:</strong> تم تحديث اشعار الخصوصية هذه في 9/2024 وقد يتم تحديث هذه السياسة حسب الحاجة وسوف يتم
+                إعلامكم بأي تحديثات.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal deleteAccount [Enter Phone]-->
+  <div class="modal fade" id="deleteAccountPhone" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-md" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">
+            حذف حسابي في تطبيق سهلة
+          </h5>
+          <button type="button" class="btn btn-close" data-dismiss="modal" aria-label="Close">
+            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.4998 26.5832C21.1733 26.5832 26.5832 21.1733 26.5832 14.4998C26.5832 7.8264 21.1733 2.4165 14.4998 2.4165C7.8264 2.4165 2.4165 7.8264 2.4165 14.4998C2.4165 21.1733 7.8264 26.5832 14.4998 26.5832Z"
+                stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M18.125 10.875L10.875 18.125" stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M10.875 10.875L18.125 18.125" stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+        <div class="modal-body px-lg-4 py-lg-5">
+          <h3 class="mb-lg-3">
+            ادخال رقم الهاتف
+          </h3>
+          <div class="form-group">
+            <label for="">من فضلك ادخل رقم الهاتف الخاص بحسابك المسجل لدينا</label>
+            <input type="tel" class="form-control phone" name="" id="" aria-describedby="emailHelpId" placeholder="05 xxxxxxxx">
+            <span class="country-code">9665</span>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn butn butn-sm" data-toggle="modal" data-target="#deleteAccountOTP">إرسال رمز تأكيد</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal deleteAccount [Enter OTP]-->
+  <div class="modal fade" id="deleteAccountOTP" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-md" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">
+            حذف حسابي في تطبيق سهلة
+          </h5>
+          <button type="button" class="btn btn-close" data-dismiss="modal" aria-label="Close">
+            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.4998 26.5832C21.1733 26.5832 26.5832 21.1733 26.5832 14.4998C26.5832 7.8264 21.1733 2.4165 14.4998 2.4165C7.8264 2.4165 2.4165 7.8264 2.4165 14.4998C2.4165 21.1733 7.8264 26.5832 14.4998 26.5832Z"
+                stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M18.125 10.875L10.875 18.125" stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M10.875 10.875L18.125 18.125" stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+        <div class="modal-body px-lg-4 py-lg-5">
+          <h3 class="mb-lg-3">
+            ادخال الرمز التأكيدي
+          </h3>
+          <div class="form-group">
+            <label for="">من فضلك ادخل الرمز التأكيدي المُرسل إلي رقم الهاتف المنتهي ب 87</label>
+            <div class="d-flex otp-flex">
+              <input type="tel" class="form-control otp" name="" id="" aria-describedby="emailHelpId" placeholder="X">
+              <input type="tel" class="form-control otp" name="" id="" aria-describedby="emailHelpId" placeholder="X">
+              <input type="tel" class="form-control otp" name="" id="" aria-describedby="emailHelpId" placeholder="X">
+              <input type="tel" class="form-control otp" name="" id="" aria-describedby="emailHelpId" placeholder="X">
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn butn butn-sm" data-toggle="modal" data-target="#Confirmation">إرسال</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal deleteAccount [Confirmation]-->
+  <div class="modal fade" id="Confirmation" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-md" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">
+            حذف حسابي في تطبيق سهلة
+          </h5>
+          <button type="button" class="btn btn-close" data-dismiss="modal" aria-label="Close">
+            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.4998 26.5832C21.1733 26.5832 26.5832 21.1733 26.5832 14.4998C26.5832 7.8264 21.1733 2.4165 14.4998 2.4165C7.8264 2.4165 2.4165 7.8264 2.4165 14.4998C2.4165 21.1733 7.8264 26.5832 14.4998 26.5832Z"
+                stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M18.125 10.875L10.875 18.125" stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M10.875 10.875L18.125 18.125" stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+        <div class="modal-body px-lg-4 py-lg-5">
+          <h3 class="mb-lg-3">
+            هل أنت متأكد أنك تريد حذف حسابك؟
+          </h3>
+          <p class="text-center px-3">
+            سيؤدي حذف حسابك إلى إزالة كافة معلوماتك من قاعدة بياناتنا. ولا يمكن التراجع عن هذا الإجراء.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn butn butn-sm">حذف الحساب</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- -------------------------------------- -->
+  <!-- -------------------------------------- -->
+
+  <!-- Modal Twasut -->
+  <div class="modal fade" id="Twasut" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">
+            إنشاء طلب توسط
+          </h5>
+          <button type="button" class="btn btn-close" data-dismiss="modal" aria-label="Close">
+            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.4998 26.5832C21.1733 26.5832 26.5832 21.1733 26.5832 14.4998C26.5832 7.8264 21.1733 2.4165 14.4998 2.4165C7.8264 2.4165 2.4165 7.8264 2.4165 14.4998C2.4165 21.1733 7.8264 26.5832 14.4998 26.5832Z"
+                stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M18.125 10.875L10.875 18.125" stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M10.875 10.875L18.125 18.125" stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+        <div class="modal-body px-lg-4">
+          <div class="bs-title">
+            <!-- <h3>إنشاء طلب توسط</h3> -->
+            <p class="bs-desc mb-2">إملأ بيانات الطلب وسوف نقوم بمراجعته والتواصل معك</p>
+          </div>
+          <div class="details-form px-3 pt-3 row">
+
+            <!-- إختر الجنسية -->
+            <div class="col-lg-6">
+              <div class="form-group mb-3">
+                <label for="serviceBranch" class="form-label">الجنسية</label>
+                <select class="form-control">
+                  <option value="apples">إختر الجنسية</option>
+                  <option value="apples">Apples</option>
+                  <option value="oranges">Oranges</option>
+                  <option value="bananas">Bananas</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- إختر المهنة -->
+            <div class="col-lg-6">
+              <div class="form-group mb-3">
+                <label for="serviceBranch" class="form-label">المهنة</label>
+                <select class="form-control">
+                  <option value="apples">إختر المهنة</option>
+                  <option value="apples">Apples</option>
+                  <option value="oranges">Oranges</option>
+                  <option value="bananas">Bananas</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- إختر الديانة -->
+            <div class="col-lg-6">
+              <div class="form-group mb-3">
+                <label for="serviceBranch" class="form-label">الديانة</label>
+                <select class="form-control">
+                  <option value="apples">إختر الديانة</option>
+                  <option value="apples">Apples</option>
+                  <option value="oranges">Oranges</option>
+                  <option value="bananas">Bananas</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- العمر -->
+            <div class="col-lg-6">
+              <div class="form-group mb-3">
+                <label class="mb-1" for="">العمر</label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+
+            <!-- مستوي الخبرة -->
+            <div class="col-lg-6">
+              <div class="form-group mb-3">
+                <label class="mb-1" for="">مستوي الخبرة</label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+
+            <!-- ملاحظات إضافية -->
+            <div class="col-lg-12">
+              <div class="form-group mb-3">
+                <label class="mb-1" for="">ملاحظات إضافية</label>
+                <textarea type="text" class="form-control" rows="3"></textarea>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn butn butn-sm"> إرسال الطلب</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Twasut -->
+  <div class="modal fade" id="Business" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">
+            إنشاء طلب أعمال
+          </h5>
+          <button type="button" class="btn btn-close" data-dismiss="modal" aria-label="Close">
+            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.4998 26.5832C21.1733 26.5832 26.5832 21.1733 26.5832 14.4998C26.5832 7.8264 21.1733 2.4165 14.4998 2.4165C7.8264 2.4165 2.4165 7.8264 2.4165 14.4998C2.4165 21.1733 7.8264 26.5832 14.4998 26.5832Z"
+                stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M18.125 10.875L10.875 18.125" stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M10.875 10.875L18.125 18.125" stroke="#273459" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+        <div class="modal-body px-lg-4">
+          <div class="bs-title">
+            <h3 class="bs-desc mb-2">بيانات التواصل</h3>
+          </div>
+          <div class="details-form px-3 pt-3 row">
+
+            <!-- إسم الشركة -->
+            <div class="col-lg-4">
+              <div class="form-group mb-3">
+                <label class="mb-1" for="">إسم الشركة</label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+
+            <!-- إسم مسئول التواصل -->
+            <div class="col-lg-4">
+              <div class="form-group mb-3">
+                <label class="mb-1" for="">إسم مسئول التواصل</label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+
+            <!-- رقم جوال مسئول التواصل -->
+            <div class="col-lg-4">
+              <div class="form-group mb-3">
+                <label class="mb-1" for="">رقم جوال مسئول التواصل</label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+
+            <!-- مهنة مسئول التواصل -->
+            <div class="col-lg-4">
+              <div class="form-group mb-3">
+                <label class="mb-1" for="">مهنة مسئول التواصل</label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+
+            <!-- تاريخ الطلب -->
+            <div class="col-lg-4">
+              <div class="form-group mb-3">
+                <label class="mb-1" for="">تاريخ الطلب</label>
+                <!-- Use Native Ionic date here -->
+                <input type="date" class="form-control">
+              </div>
+            </div>
+
+            <!-- ملاحظات إضافية -->
+            <div class="col-lg-12">
+              <div class="form-group mb-3">
+                <label class="mb-1" for="">ملاحظات إضافية</label>
+                <textarea type="text" class="form-control" rows="2"></textarea>
+              </div>
+            </div>
+
+
+            <div class="col-lg-12">
+              <div class="bs-title mt-lg-4">
+                <h3 class="bs-desc mb-2">بيانات الطلب</h3>
+              </div>
+            </div>
+
+            <!-- إختر الجنسية -->
+            <div class="col-lg-4">
+              <div class="form-group mb-3">
+                <label for="serviceBranch" class="form-label">الجنسية</label>
+                <select class="form-control">
+                  <option value="apples">إختر الجنسية</option>
+                  <option value="apples">Apples</option>
+                  <option value="oranges">Oranges</option>
+                  <option value="bananas">Bananas</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- إختر المهنة -->
+            <div class="col-lg-4">
+              <div class="form-group mb-3">
+                <label for="serviceBranch" class="form-label">المهنة</label>
+                <select class="form-control">
+                  <option value="apples">إختر المهنة</option>
+                  <option value="apples">Apples</option>
+                  <option value="oranges">Oranges</option>
+                  <option value="bananas">Bananas</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- عدد العمالة المطلوبة -->
+            <div class="col-lg-4">
+              <div class="form-group mb-3">
+                <label class="mb-1" for="">عدد العمالة المطلوبة</label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+
+
+            <!-- Add Button -->
+            <div class="col-lg-4 mx-auto text-center">
+            <button class="butn butn-sm butn-down px-4 mx-auto mb-3">
+              <span class="txt">
+                أضف
+              </span>
+            </button>
+            </div>
+
+            <div class="table-responsive">
+              <table class="table table-striped">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col">الجنسية</th>
+                    <th scope="col">المهنة</th>
+                    <th scope="col">عدد العمالة</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="">
+                    <td scope="row">الهند</td>
+                    <td>سائق</td>
+                    <td>2</td>
+                    <td>
+                      <button class="btn">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M13.5 4.5L4.5 13.5" stroke="#222222" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M4.5 4.5L13.5 13.5" stroke="#222222" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="">
+                    <td scope="row">الهند</td>
+                    <td>سائق</td>
+                    <td>2</td>
+                    <td>
+                      <button class="btn">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M13.5 4.5L4.5 13.5" stroke="#222222" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M4.5 4.5L13.5 13.5" stroke="#222222" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="">
+                    <td scope="row">الهند</td>
+                    <td>سائق</td>
+                    <td>2</td>
+                    <td>
+                      <button class="btn">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M13.5 4.5L4.5 13.5" stroke="#222222" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M4.5 4.5L13.5 13.5" stroke="#222222" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn butn butn-sm"> إرسال الطلب</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 </body>
 
